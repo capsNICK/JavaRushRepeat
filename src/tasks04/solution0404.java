@@ -8,7 +8,7 @@ public class solution0404 {
     while (visota < 5) {
         int shirina = 0;
         while (shirina < 10) {
-            System.out.print("q");
+            System.out.print("Q");
             shirina++;
         }
         System.out.println();
