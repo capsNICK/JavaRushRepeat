@@ -1,21 +1,19 @@
 package tasks04;
 
-import java.util.Scanner;
-
 public class solution0404 {
     public static void main(String[] args) {
-        Scanner console = new Scanner(System.in);
-        int num = console.nextInt();
-        int sum = 0;
-        boolean exit = false;
 
+    int visota = 0;
 
-        while (!exit) {
-            sum = sum + num;
-            String enter = console.nextLine();
-            exit = enter.equalsIgnoreCase("enter");
+    while (visota < 5) {
+        int shirina = 0;
+        while (shirina < 10) {
+            System.out.print("q");
+            shirina++;
         }
-        System.out.println(sum);
+        System.out.println();
+        visota++;
+    }
 
     }
 }
