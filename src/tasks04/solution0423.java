@@ -10,7 +10,4 @@ public class solution0423 {
 
         System.out.println(Math.round(perevod));
     }
-
-
-
 }

@@ -24,3 +24,4 @@ public class solution0412 {
         }
     }
 }
+
